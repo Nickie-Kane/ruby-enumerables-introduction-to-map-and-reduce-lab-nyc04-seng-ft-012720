@@ -46,10 +46,8 @@ def reduce_to_total(source_array)
     return n_sum
 end
 
-def reduce_to_total(source_array, starting_point)
-  if starting_point != nil 
+def reduce_to_total(source_array, starting_point=0)
     n_sum = starting_point
-  end
   count = 0
   while count < source_array.length
       n_sum += source_array[count]
