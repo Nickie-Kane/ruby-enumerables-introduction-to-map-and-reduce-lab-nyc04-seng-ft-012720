@@ -49,8 +49,6 @@ end
 def reduce_to_total(source_array, starting_point)
   if starting_point != nil 
     n_sum = starting_point
-  else 
-    n_sum = 
   end
   count = 0
   while count < source_array.length
