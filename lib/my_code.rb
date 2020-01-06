@@ -50,7 +50,7 @@ def reduce_to_total(source_array, starting_point)
   if starting_point != nil 
     n_sum = starting_point
   end
-  n_sum = nil
+  n_sum = 0
   count = 0
   while count < source_array.length
       n_sum += source_array[count]
